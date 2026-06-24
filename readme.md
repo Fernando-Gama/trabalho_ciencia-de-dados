@@ -38,6 +38,69 @@ Para gerar apenas algumas edições ou mudar a saída:
   --output dados_processados/dataset_copas_2002_2018.csv
 ```
 
+## Análise exploratória
+
+Depois de gerar o dataset processado, execute:
+
+```bash
+./venv/bin/python analise_exploratoria.py
+```
+
+Para gerar gráficos com visual mais adequado para o relatório, instale as
+dependências opcionais:
+
+```bash
+./venv/bin/python -m pip install matplotlib seaborn
+```
+
+O script cria a pasta `analises/` com:
+
+- `resumo_analise_exploratoria.md`: resumo textual com os principais achados;
+- `tabelas/`: tabelas CSV com distribuição do alvo, estatísticas numéricas,
+  resultados por Copa, desempenho por seleção e correlações;
+- `graficos/`: gráficos PNG, caso `matplotlib` esteja instalado no ambiente.
+
+Quando `seaborn` está instalado, o script usa automaticamente um estilo visual mais
+limpo para os gráficos. Se `matplotlib` não estiver instalado, as tabelas e o resumo
+em Markdown são gerados normalmente, apenas os gráficos são ignorados.
+
+## Modelagem e avaliação
+
+Para instalar as dependências principais do projeto:
+
+```bash
+./venv/bin/python -m pip install -r requirements.txt
+```
+
+Depois da geração do dataset, execute:
+
+```bash
+./venv/bin/python modelagem.py
+```
+
+O script treina e compara:
+
+- baseline da classe majoritária;
+- regressão logística;
+- árvore de decisão;
+- random forest.
+
+A divisão temporal adotada é:
+
+- treinamento: Copas de 1998 a 2010;
+- validação: Copa de 2014;
+- teste final: Copa de 2018;
+- avaliação adicional: Copa de 2022.
+
+As saídas são salvas em `modelagem/`:
+
+- `resumo_modelagem.md`: resumo dos resultados principais;
+- `tabelas/metricas_modelos.csv`: accuracy e macro-F1 por modelo;
+- `tabelas/metricas_por_classe.csv`: precision, recall e F1 por classe;
+- `tabelas/matrizes_confusao.csv`: matrizes de confusão;
+- `tabelas/avaliacao_hipoteses.csv`: comparação dos grupos de atributos;
+- `graficos/`: comparação dos modelos, matriz de confusão e importância de variáveis.
+
 ## Metodologia
 
 Para cada edição entre 1998 e 2022, o ciclo começa depois da última partida da Copa

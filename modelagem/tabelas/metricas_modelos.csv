@@ -1,0 +1,13 @@
+modelo,conjunto,accuracy,macro_f1,quantidade_partidas
+baseline_classe_majoritaria,validacao_2014,0.4531,0.2079,64
+baseline_classe_majoritaria,teste_2018,0.3906,0.1873,64
+baseline_classe_majoritaria,avaliacao_2022,0.4375,0.2029,64
+regressao_logistica,validacao_2014,0.4531,0.3789,64
+regressao_logistica,teste_2018,0.5,0.4761,64
+regressao_logistica,avaliacao_2022,0.4062,0.3289,64
+arvore_decisao,validacao_2014,0.3438,0.3524,64
+arvore_decisao,teste_2018,0.4062,0.3988,64
+arvore_decisao,avaliacao_2022,0.2812,0.282,64
+random_forest,validacao_2014,0.4844,0.4127,64
+random_forest,teste_2018,0.4219,0.3668,64
+random_forest,avaliacao_2022,0.4531,0.4018,64

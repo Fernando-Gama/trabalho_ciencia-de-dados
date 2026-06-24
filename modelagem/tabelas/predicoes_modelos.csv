@@ -1,0 +1,769 @@
+modelo,conjunto,world_cup_year,match_id,team_a,team_b,result_real,rotulo_real,result_previsto,rotulo_previsto,acertou
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0257,Brazil,Croatia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0258,Chile,Australia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0259,Mexico,Cameroon,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0260,Spain,Netherlands,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0261,Colombia,Greece,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0262,England,Italy,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0263,Ivory Coast,Japan,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0264,Uruguay,Costa Rica,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0265,Argentina,Bosnia and Herzegovina,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0266,France,Honduras,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0267,Switzerland,Ecuador,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0268,Germany,Portugal,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0269,Ghana,United States,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0270,Iran,Nigeria,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0271,Belgium,Algeria,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0272,Brazil,Mexico,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0273,Russia,South Korea,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0274,Australia,Netherlands,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0275,Cameroon,Croatia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0276,Spain,Chile,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0277,Colombia,Ivory Coast,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0278,Japan,Greece,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0279,Uruguay,England,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0280,Honduras,Ecuador,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0281,Italy,Costa Rica,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0282,Switzerland,France,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0283,Argentina,Iran,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0284,Germany,Ghana,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0285,Nigeria,Bosnia and Herzegovina,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0286,Belgium,Russia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0287,South Korea,Algeria,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0288,United States,Portugal,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0289,Australia,Spain,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0290,Brazil,Cameroon,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0291,Croatia,Mexico,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0292,Netherlands,Chile,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0293,Costa Rica,England,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0294,Greece,Ivory Coast,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0295,Italy,Uruguay,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0296,Japan,Colombia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0297,Bosnia and Herzegovina,Iran,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0298,Ecuador,France,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0299,Honduras,Switzerland,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0300,Nigeria,Argentina,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0301,Algeria,Russia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0302,South Korea,Belgium,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0303,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0304,United States,Germany,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0305,Brazil,Chile,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0306,Colombia,Uruguay,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0307,Costa Rica,Greece,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0308,Netherlands,Mexico,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0309,France,Nigeria,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0310,Germany,Algeria,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0311,Argentina,Switzerland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0312,Belgium,United States,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0313,Brazil,Colombia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0314,France,Germany,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0315,Argentina,Belgium,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0316,Netherlands,Costa Rica,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0317,Brazil,Germany,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0318,Netherlands,Argentina,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0319,Brazil,Netherlands,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,validacao_2014,2014,WC2014_0320,Germany,Argentina,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0321,Russia,Saudi Arabia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0322,Egypt,Uruguay,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0323,Morocco,Iran,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0324,Portugal,Spain,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0325,France,Australia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0326,Argentina,Iceland,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0327,Peru,Denmark,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0328,Croatia,Nigeria,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0329,Costa Rica,Serbia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0330,Germany,Mexico,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0331,Brazil,Switzerland,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0332,Sweden,South Korea,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0333,Belgium,Panama,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0334,Tunisia,England,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0335,Colombia,Japan,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0336,Poland,Senegal,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0337,Russia,Egypt,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0338,Portugal,Morocco,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0339,Uruguay,Saudi Arabia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0340,Iran,Spain,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0341,Denmark,Australia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0342,France,Peru,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0343,Argentina,Croatia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0344,Brazil,Costa Rica,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0345,Nigeria,Iceland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0346,Serbia,Switzerland,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0347,Belgium,Tunisia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0348,South Korea,Mexico,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0349,Germany,Sweden,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0350,England,Panama,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0351,Japan,Senegal,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0352,Poland,Colombia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0353,Russia,Uruguay,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0354,Saudi Arabia,Egypt,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0355,Spain,Morocco,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0356,Iran,Portugal,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0357,Australia,Peru,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0358,Denmark,France,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0359,Nigeria,Argentina,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0360,Iceland,Croatia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0361,South Korea,Germany,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0362,Mexico,Sweden,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0363,Serbia,Brazil,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0364,Switzerland,Costa Rica,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0365,Japan,Poland,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0366,Senegal,Colombia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0367,Panama,Tunisia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0368,England,Belgium,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0369,France,Argentina,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0370,Uruguay,Portugal,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0371,Russia,Spain,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0372,Croatia,Denmark,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0373,Brazil,Mexico,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0374,Belgium,Japan,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0375,Sweden,Switzerland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0376,Colombia,England,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0377,Uruguay,France,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0378,Brazil,Belgium,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0379,Sweden,England,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0380,Russia,Croatia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0381,France,Belgium,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0382,Croatia,England,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0383,Belgium,England,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,teste_2018,2018,WC2018_0384,France,Croatia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0385,Qatar,Ecuador,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0386,Senegal,Netherlands,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0387,England,Iran,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0388,United States,Wales,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0389,Argentina,Saudi Arabia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0390,Mexico,Poland,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0391,Denmark,Tunisia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0392,France,Australia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0393,Germany,Japan,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0394,Spain,Costa Rica,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0395,Morocco,Croatia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0396,Belgium,Canada,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0397,Switzerland,Cameroon,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0398,Brazil,Serbia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0399,Uruguay,South Korea,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0400,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0401,Qatar,Senegal,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0402,Netherlands,Ecuador,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0403,Wales,Iran,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0404,England,United States,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0405,Poland,Saudi Arabia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0406,Argentina,Mexico,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0407,Tunisia,Australia,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0408,France,Denmark,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0409,Japan,Costa Rica,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0410,Spain,Germany,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0411,Belgium,Morocco,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0412,Croatia,Canada,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0413,Cameroon,Serbia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0414,Brazil,Switzerland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0415,South Korea,Ghana,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0416,Portugal,Uruguay,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0417,Ecuador,Senegal,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0418,Qatar,Netherlands,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0419,Wales,England,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0420,Iran,United States,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0421,Poland,Argentina,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0422,Saudi Arabia,Mexico,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0423,Australia,Denmark,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0424,Tunisia,France,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0425,Japan,Spain,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0426,Costa Rica,Germany,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0427,Croatia,Belgium,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0428,Canada,Morocco,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0429,Serbia,Switzerland,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0430,Cameroon,Brazil,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0431,Ghana,Uruguay,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0432,South Korea,Portugal,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0433,Netherlands,United States,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0434,Argentina,Australia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0435,France,Poland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0436,England,Senegal,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0437,Japan,Croatia,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0438,Brazil,South Korea,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0439,Morocco,Spain,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0440,Portugal,Switzerland,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0441,Croatia,Brazil,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0442,Netherlands,Argentina,1,Empate,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0443,Morocco,Portugal,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0444,England,France,2,Vitória B,0,Vitória A,0
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0445,Argentina,Croatia,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0446,France,Morocco,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0447,Croatia,Morocco,0,Vitória A,0,Vitória A,1
+baseline_classe_majoritaria,avaliacao_2022,2022,WC2022_0448,Argentina,France,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0257,Brazil,Croatia,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0258,Chile,Australia,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0259,Mexico,Cameroon,0,Vitória A,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0260,Spain,Netherlands,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0261,Colombia,Greece,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0262,England,Italy,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0263,Ivory Coast,Japan,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0264,Uruguay,Costa Rica,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0265,Argentina,Bosnia and Herzegovina,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0266,France,Honduras,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0267,Switzerland,Ecuador,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0268,Germany,Portugal,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0269,Ghana,United States,2,Vitória B,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0270,Iran,Nigeria,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0271,Belgium,Algeria,0,Vitória A,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0272,Brazil,Mexico,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0273,Russia,South Korea,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0274,Australia,Netherlands,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0275,Cameroon,Croatia,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0276,Spain,Chile,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0277,Colombia,Ivory Coast,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0278,Japan,Greece,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0279,Uruguay,England,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0280,Honduras,Ecuador,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0281,Italy,Costa Rica,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0282,Switzerland,France,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0283,Argentina,Iran,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0284,Germany,Ghana,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0285,Nigeria,Bosnia and Herzegovina,0,Vitória A,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0286,Belgium,Russia,0,Vitória A,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0287,South Korea,Algeria,2,Vitória B,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0288,United States,Portugal,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0289,Australia,Spain,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0290,Brazil,Cameroon,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0291,Croatia,Mexico,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0292,Netherlands,Chile,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0293,Costa Rica,England,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0294,Greece,Ivory Coast,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0295,Italy,Uruguay,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0296,Japan,Colombia,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0297,Bosnia and Herzegovina,Iran,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0298,Ecuador,France,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0299,Honduras,Switzerland,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0300,Nigeria,Argentina,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0301,Algeria,Russia,1,Empate,1,Empate,1
+regressao_logistica,validacao_2014,2014,WC2014_0302,South Korea,Belgium,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0303,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0304,United States,Germany,2,Vitória B,2,Vitória B,1
+regressao_logistica,validacao_2014,2014,WC2014_0305,Brazil,Chile,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0306,Colombia,Uruguay,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0307,Costa Rica,Greece,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0308,Netherlands,Mexico,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0309,France,Nigeria,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0310,Germany,Algeria,0,Vitória A,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0311,Argentina,Switzerland,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0312,Belgium,United States,0,Vitória A,1,Empate,0
+regressao_logistica,validacao_2014,2014,WC2014_0313,Brazil,Colombia,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0314,France,Germany,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0315,Argentina,Belgium,0,Vitória A,0,Vitória A,1
+regressao_logistica,validacao_2014,2014,WC2014_0316,Netherlands,Costa Rica,1,Empate,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0317,Brazil,Germany,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0318,Netherlands,Argentina,1,Empate,2,Vitória B,0
+regressao_logistica,validacao_2014,2014,WC2014_0319,Brazil,Netherlands,2,Vitória B,0,Vitória A,0
+regressao_logistica,validacao_2014,2014,WC2014_0320,Germany,Argentina,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0321,Russia,Saudi Arabia,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0322,Egypt,Uruguay,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0323,Morocco,Iran,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0324,Portugal,Spain,1,Empate,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0325,France,Australia,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0326,Argentina,Iceland,1,Empate,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0327,Peru,Denmark,2,Vitória B,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0328,Croatia,Nigeria,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0329,Costa Rica,Serbia,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0330,Germany,Mexico,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0331,Brazil,Switzerland,1,Empate,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0332,Sweden,South Korea,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0333,Belgium,Panama,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0334,Tunisia,England,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0335,Colombia,Japan,2,Vitória B,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0336,Poland,Senegal,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0337,Russia,Egypt,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0338,Portugal,Morocco,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0339,Uruguay,Saudi Arabia,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0340,Iran,Spain,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0341,Denmark,Australia,1,Empate,1,Empate,1
+regressao_logistica,teste_2018,2018,WC2018_0342,France,Peru,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0343,Argentina,Croatia,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0344,Brazil,Costa Rica,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0345,Nigeria,Iceland,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0346,Serbia,Switzerland,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0347,Belgium,Tunisia,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0348,South Korea,Mexico,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0349,Germany,Sweden,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0350,England,Panama,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0351,Japan,Senegal,1,Empate,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0352,Poland,Colombia,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0353,Russia,Uruguay,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0354,Saudi Arabia,Egypt,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0355,Spain,Morocco,1,Empate,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0356,Iran,Portugal,1,Empate,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0357,Australia,Peru,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0358,Denmark,France,1,Empate,1,Empate,1
+regressao_logistica,teste_2018,2018,WC2018_0359,Nigeria,Argentina,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0360,Iceland,Croatia,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0361,South Korea,Germany,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0362,Mexico,Sweden,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0363,Serbia,Brazil,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0364,Switzerland,Costa Rica,1,Empate,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0365,Japan,Poland,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0366,Senegal,Colombia,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0367,Panama,Tunisia,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0368,England,Belgium,2,Vitória B,2,Vitória B,1
+regressao_logistica,teste_2018,2018,WC2018_0369,France,Argentina,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0370,Uruguay,Portugal,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0371,Russia,Spain,1,Empate,1,Empate,1
+regressao_logistica,teste_2018,2018,WC2018_0372,Croatia,Denmark,1,Empate,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0373,Brazil,Mexico,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0374,Belgium,Japan,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0375,Sweden,Switzerland,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0376,Colombia,England,1,Empate,1,Empate,1
+regressao_logistica,teste_2018,2018,WC2018_0377,Uruguay,France,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0378,Brazil,Belgium,2,Vitória B,0,Vitória A,0
+regressao_logistica,teste_2018,2018,WC2018_0379,Sweden,England,2,Vitória B,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0380,Russia,Croatia,1,Empate,1,Empate,1
+regressao_logistica,teste_2018,2018,WC2018_0381,France,Belgium,0,Vitória A,2,Vitória B,0
+regressao_logistica,teste_2018,2018,WC2018_0382,Croatia,England,0,Vitória A,1,Empate,0
+regressao_logistica,teste_2018,2018,WC2018_0383,Belgium,England,0,Vitória A,0,Vitória A,1
+regressao_logistica,teste_2018,2018,WC2018_0384,France,Croatia,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0385,Qatar,Ecuador,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0386,Senegal,Netherlands,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0387,England,Iran,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0388,United States,Wales,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0389,Argentina,Saudi Arabia,2,Vitória B,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0390,Mexico,Poland,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0391,Denmark,Tunisia,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0392,France,Australia,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0393,Germany,Japan,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0394,Spain,Costa Rica,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0395,Morocco,Croatia,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0396,Belgium,Canada,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0397,Switzerland,Cameroon,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0398,Brazil,Serbia,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0399,Uruguay,South Korea,1,Empate,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0400,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0401,Qatar,Senegal,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0402,Netherlands,Ecuador,1,Empate,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0403,Wales,Iran,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0404,England,United States,1,Empate,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0405,Poland,Saudi Arabia,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0406,Argentina,Mexico,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0407,Tunisia,Australia,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0408,France,Denmark,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0409,Japan,Costa Rica,2,Vitória B,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0410,Spain,Germany,1,Empate,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0411,Belgium,Morocco,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0412,Croatia,Canada,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0413,Cameroon,Serbia,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0414,Brazil,Switzerland,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0415,South Korea,Ghana,2,Vitória B,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0416,Portugal,Uruguay,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0417,Ecuador,Senegal,2,Vitória B,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0418,Qatar,Netherlands,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0419,Wales,England,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0420,Iran,United States,2,Vitória B,0,Vitória A,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0421,Poland,Argentina,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0422,Saudi Arabia,Mexico,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0423,Australia,Denmark,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0424,Tunisia,France,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0425,Japan,Spain,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0426,Costa Rica,Germany,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0427,Croatia,Belgium,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0428,Canada,Morocco,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0429,Serbia,Switzerland,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0430,Cameroon,Brazil,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0431,Ghana,Uruguay,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0432,South Korea,Portugal,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0433,Netherlands,United States,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0434,Argentina,Australia,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0435,France,Poland,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0436,England,Senegal,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0437,Japan,Croatia,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0438,Brazil,South Korea,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0439,Morocco,Spain,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0440,Portugal,Switzerland,0,Vitória A,0,Vitória A,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0441,Croatia,Brazil,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0442,Netherlands,Argentina,1,Empate,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0443,Morocco,Portugal,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0444,England,France,2,Vitória B,2,Vitória B,1
+regressao_logistica,avaliacao_2022,2022,WC2022_0445,Argentina,Croatia,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0446,France,Morocco,0,Vitória A,2,Vitória B,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0447,Croatia,Morocco,0,Vitória A,1,Empate,0
+regressao_logistica,avaliacao_2022,2022,WC2022_0448,Argentina,France,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0257,Brazil,Croatia,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0258,Chile,Australia,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0259,Mexico,Cameroon,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0260,Spain,Netherlands,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0261,Colombia,Greece,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0262,England,Italy,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0263,Ivory Coast,Japan,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0264,Uruguay,Costa Rica,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0265,Argentina,Bosnia and Herzegovina,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0266,France,Honduras,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0267,Switzerland,Ecuador,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0268,Germany,Portugal,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0269,Ghana,United States,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0270,Iran,Nigeria,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0271,Belgium,Algeria,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0272,Brazil,Mexico,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0273,Russia,South Korea,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0274,Australia,Netherlands,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0275,Cameroon,Croatia,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0276,Spain,Chile,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0277,Colombia,Ivory Coast,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0278,Japan,Greece,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0279,Uruguay,England,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0280,Honduras,Ecuador,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0281,Italy,Costa Rica,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0282,Switzerland,France,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0283,Argentina,Iran,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0284,Germany,Ghana,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0285,Nigeria,Bosnia and Herzegovina,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0286,Belgium,Russia,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0287,South Korea,Algeria,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0288,United States,Portugal,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0289,Australia,Spain,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0290,Brazil,Cameroon,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0291,Croatia,Mexico,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0292,Netherlands,Chile,0,Vitória A,2,Vitória B,0
+arvore_decisao,validacao_2014,2014,WC2014_0293,Costa Rica,England,1,Empate,2,Vitória B,0
+arvore_decisao,validacao_2014,2014,WC2014_0294,Greece,Ivory Coast,0,Vitória A,2,Vitória B,0
+arvore_decisao,validacao_2014,2014,WC2014_0295,Italy,Uruguay,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0296,Japan,Colombia,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0297,Bosnia and Herzegovina,Iran,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0298,Ecuador,France,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0299,Honduras,Switzerland,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0300,Nigeria,Argentina,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0301,Algeria,Russia,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0302,South Korea,Belgium,2,Vitória B,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0303,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0304,United States,Germany,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0305,Brazil,Chile,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0306,Colombia,Uruguay,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0307,Costa Rica,Greece,1,Empate,1,Empate,1
+arvore_decisao,validacao_2014,2014,WC2014_0308,Netherlands,Mexico,0,Vitória A,2,Vitória B,0
+arvore_decisao,validacao_2014,2014,WC2014_0309,France,Nigeria,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0310,Germany,Algeria,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0311,Argentina,Switzerland,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0312,Belgium,United States,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0313,Brazil,Colombia,0,Vitória A,0,Vitória A,1
+arvore_decisao,validacao_2014,2014,WC2014_0314,France,Germany,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0315,Argentina,Belgium,0,Vitória A,1,Empate,0
+arvore_decisao,validacao_2014,2014,WC2014_0316,Netherlands,Costa Rica,1,Empate,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0317,Brazil,Germany,2,Vitória B,2,Vitória B,1
+arvore_decisao,validacao_2014,2014,WC2014_0318,Netherlands,Argentina,1,Empate,2,Vitória B,0
+arvore_decisao,validacao_2014,2014,WC2014_0319,Brazil,Netherlands,2,Vitória B,0,Vitória A,0
+arvore_decisao,validacao_2014,2014,WC2014_0320,Germany,Argentina,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0321,Russia,Saudi Arabia,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0322,Egypt,Uruguay,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0323,Morocco,Iran,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0324,Portugal,Spain,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0325,France,Australia,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0326,Argentina,Iceland,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0327,Peru,Denmark,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0328,Croatia,Nigeria,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0329,Costa Rica,Serbia,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0330,Germany,Mexico,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0331,Brazil,Switzerland,1,Empate,1,Empate,1
+arvore_decisao,teste_2018,2018,WC2018_0332,Sweden,South Korea,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0333,Belgium,Panama,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0334,Tunisia,England,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0335,Colombia,Japan,2,Vitória B,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0336,Poland,Senegal,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0337,Russia,Egypt,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0338,Portugal,Morocco,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0339,Uruguay,Saudi Arabia,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0340,Iran,Spain,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0341,Denmark,Australia,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0342,France,Peru,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0343,Argentina,Croatia,2,Vitória B,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0344,Brazil,Costa Rica,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0345,Nigeria,Iceland,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0346,Serbia,Switzerland,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0347,Belgium,Tunisia,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0348,South Korea,Mexico,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0349,Germany,Sweden,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0350,England,Panama,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0351,Japan,Senegal,1,Empate,1,Empate,1
+arvore_decisao,teste_2018,2018,WC2018_0352,Poland,Colombia,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0353,Russia,Uruguay,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0354,Saudi Arabia,Egypt,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0355,Spain,Morocco,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0356,Iran,Portugal,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0357,Australia,Peru,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0358,Denmark,France,1,Empate,1,Empate,1
+arvore_decisao,teste_2018,2018,WC2018_0359,Nigeria,Argentina,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0360,Iceland,Croatia,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0361,South Korea,Germany,0,Vitória A,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0362,Mexico,Sweden,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0363,Serbia,Brazil,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0364,Switzerland,Costa Rica,1,Empate,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0365,Japan,Poland,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0366,Senegal,Colombia,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0367,Panama,Tunisia,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0368,England,Belgium,2,Vitória B,2,Vitória B,1
+arvore_decisao,teste_2018,2018,WC2018_0369,France,Argentina,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0370,Uruguay,Portugal,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0371,Russia,Spain,1,Empate,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0372,Croatia,Denmark,1,Empate,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0373,Brazil,Mexico,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0374,Belgium,Japan,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0375,Sweden,Switzerland,0,Vitória A,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0376,Colombia,England,1,Empate,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0377,Uruguay,France,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0378,Brazil,Belgium,2,Vitória B,0,Vitória A,0
+arvore_decisao,teste_2018,2018,WC2018_0379,Sweden,England,2,Vitória B,1,Empate,0
+arvore_decisao,teste_2018,2018,WC2018_0380,Russia,Croatia,1,Empate,1,Empate,1
+arvore_decisao,teste_2018,2018,WC2018_0381,France,Belgium,0,Vitória A,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0382,Croatia,England,0,Vitória A,2,Vitória B,0
+arvore_decisao,teste_2018,2018,WC2018_0383,Belgium,England,0,Vitória A,0,Vitória A,1
+arvore_decisao,teste_2018,2018,WC2018_0384,France,Croatia,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0385,Qatar,Ecuador,2,Vitória B,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0386,Senegal,Netherlands,2,Vitória B,2,Vitória B,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0387,England,Iran,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0388,United States,Wales,1,Empate,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0389,Argentina,Saudi Arabia,2,Vitória B,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0390,Mexico,Poland,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0391,Denmark,Tunisia,1,Empate,1,Empate,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0392,France,Australia,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0393,Germany,Japan,2,Vitória B,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0394,Spain,Costa Rica,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0395,Morocco,Croatia,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0396,Belgium,Canada,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0397,Switzerland,Cameroon,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0398,Brazil,Serbia,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0399,Uruguay,South Korea,1,Empate,1,Empate,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0400,Portugal,Ghana,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0401,Qatar,Senegal,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0402,Netherlands,Ecuador,1,Empate,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0403,Wales,Iran,2,Vitória B,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0404,England,United States,1,Empate,1,Empate,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0405,Poland,Saudi Arabia,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0406,Argentina,Mexico,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0407,Tunisia,Australia,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0408,France,Denmark,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0409,Japan,Costa Rica,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0410,Spain,Germany,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0411,Belgium,Morocco,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0412,Croatia,Canada,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0413,Cameroon,Serbia,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0414,Brazil,Switzerland,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0415,South Korea,Ghana,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0416,Portugal,Uruguay,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0417,Ecuador,Senegal,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0418,Qatar,Netherlands,2,Vitória B,2,Vitória B,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0419,Wales,England,2,Vitória B,2,Vitória B,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0420,Iran,United States,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0421,Poland,Argentina,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0422,Saudi Arabia,Mexico,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0423,Australia,Denmark,0,Vitória A,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0424,Tunisia,France,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0425,Japan,Spain,0,Vitória A,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0426,Costa Rica,Germany,2,Vitória B,2,Vitória B,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0427,Croatia,Belgium,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0428,Canada,Morocco,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0429,Serbia,Switzerland,2,Vitória B,0,Vitória A,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0430,Cameroon,Brazil,0,Vitória A,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0431,Ghana,Uruguay,2,Vitória B,2,Vitória B,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0432,South Korea,Portugal,0,Vitória A,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0433,Netherlands,United States,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0434,Argentina,Australia,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0435,France,Poland,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0436,England,Senegal,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0437,Japan,Croatia,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0438,Brazil,South Korea,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0439,Morocco,Spain,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0440,Portugal,Switzerland,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0441,Croatia,Brazil,1,Empate,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0442,Netherlands,Argentina,1,Empate,1,Empate,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0443,Morocco,Portugal,0,Vitória A,2,Vitória B,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0444,England,France,2,Vitória B,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0445,Argentina,Croatia,0,Vitória A,0,Vitória A,1
+arvore_decisao,avaliacao_2022,2022,WC2022_0446,France,Morocco,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0447,Croatia,Morocco,0,Vitória A,1,Empate,0
+arvore_decisao,avaliacao_2022,2022,WC2022_0448,Argentina,France,1,Empate,1,Empate,1
+random_forest,validacao_2014,2014,WC2014_0257,Brazil,Croatia,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0258,Chile,Australia,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0259,Mexico,Cameroon,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0260,Spain,Netherlands,2,Vitória B,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0261,Colombia,Greece,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0262,England,Italy,2,Vitória B,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0263,Ivory Coast,Japan,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0264,Uruguay,Costa Rica,2,Vitória B,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0265,Argentina,Bosnia and Herzegovina,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0266,France,Honduras,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0267,Switzerland,Ecuador,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0268,Germany,Portugal,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0269,Ghana,United States,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0270,Iran,Nigeria,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0271,Belgium,Algeria,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0272,Brazil,Mexico,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0273,Russia,South Korea,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0274,Australia,Netherlands,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0275,Cameroon,Croatia,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0276,Spain,Chile,2,Vitória B,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0277,Colombia,Ivory Coast,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0278,Japan,Greece,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0279,Uruguay,England,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0280,Honduras,Ecuador,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0281,Italy,Costa Rica,2,Vitória B,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0282,Switzerland,France,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0283,Argentina,Iran,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0284,Germany,Ghana,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0285,Nigeria,Bosnia and Herzegovina,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0286,Belgium,Russia,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0287,South Korea,Algeria,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0288,United States,Portugal,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0289,Australia,Spain,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0290,Brazil,Cameroon,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0291,Croatia,Mexico,2,Vitória B,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0292,Netherlands,Chile,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0293,Costa Rica,England,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0294,Greece,Ivory Coast,0,Vitória A,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0295,Italy,Uruguay,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0296,Japan,Colombia,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0297,Bosnia and Herzegovina,Iran,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0298,Ecuador,France,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0299,Honduras,Switzerland,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0300,Nigeria,Argentina,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0301,Algeria,Russia,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0302,South Korea,Belgium,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0303,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0304,United States,Germany,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0305,Brazil,Chile,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0306,Colombia,Uruguay,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0307,Costa Rica,Greece,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0308,Netherlands,Mexico,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0309,France,Nigeria,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0310,Germany,Algeria,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0311,Argentina,Switzerland,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0312,Belgium,United States,0,Vitória A,1,Empate,0
+random_forest,validacao_2014,2014,WC2014_0313,Brazil,Colombia,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0314,France,Germany,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0315,Argentina,Belgium,0,Vitória A,0,Vitória A,1
+random_forest,validacao_2014,2014,WC2014_0316,Netherlands,Costa Rica,1,Empate,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0317,Brazil,Germany,2,Vitória B,2,Vitória B,1
+random_forest,validacao_2014,2014,WC2014_0318,Netherlands,Argentina,1,Empate,2,Vitória B,0
+random_forest,validacao_2014,2014,WC2014_0319,Brazil,Netherlands,2,Vitória B,0,Vitória A,0
+random_forest,validacao_2014,2014,WC2014_0320,Germany,Argentina,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0321,Russia,Saudi Arabia,0,Vitória A,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0322,Egypt,Uruguay,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0323,Morocco,Iran,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0324,Portugal,Spain,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0325,France,Australia,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0326,Argentina,Iceland,1,Empate,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0327,Peru,Denmark,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0328,Croatia,Nigeria,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0329,Costa Rica,Serbia,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0330,Germany,Mexico,2,Vitória B,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0331,Brazil,Switzerland,1,Empate,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0332,Sweden,South Korea,0,Vitória A,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0333,Belgium,Panama,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0334,Tunisia,England,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0335,Colombia,Japan,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0336,Poland,Senegal,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0337,Russia,Egypt,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0338,Portugal,Morocco,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0339,Uruguay,Saudi Arabia,0,Vitória A,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0340,Iran,Spain,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0341,Denmark,Australia,1,Empate,1,Empate,1
+random_forest,teste_2018,2018,WC2018_0342,France,Peru,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0343,Argentina,Croatia,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0344,Brazil,Costa Rica,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0345,Nigeria,Iceland,0,Vitória A,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0346,Serbia,Switzerland,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0347,Belgium,Tunisia,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0348,South Korea,Mexico,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0349,Germany,Sweden,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0350,England,Panama,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0351,Japan,Senegal,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0352,Poland,Colombia,2,Vitória B,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0353,Russia,Uruguay,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0354,Saudi Arabia,Egypt,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0355,Spain,Morocco,1,Empate,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0356,Iran,Portugal,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0357,Australia,Peru,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0358,Denmark,France,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0359,Nigeria,Argentina,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0360,Iceland,Croatia,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0361,South Korea,Germany,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0362,Mexico,Sweden,2,Vitória B,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0363,Serbia,Brazil,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0364,Switzerland,Costa Rica,1,Empate,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0365,Japan,Poland,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0366,Senegal,Colombia,2,Vitória B,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0367,Panama,Tunisia,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0368,England,Belgium,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0369,France,Argentina,0,Vitória A,1,Empate,0
+random_forest,teste_2018,2018,WC2018_0370,Uruguay,Portugal,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0371,Russia,Spain,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0372,Croatia,Denmark,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0373,Brazil,Mexico,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0374,Belgium,Japan,0,Vitória A,0,Vitória A,1
+random_forest,teste_2018,2018,WC2018_0375,Sweden,Switzerland,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0376,Colombia,England,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0377,Uruguay,France,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0378,Brazil,Belgium,2,Vitória B,0,Vitória A,0
+random_forest,teste_2018,2018,WC2018_0379,Sweden,England,2,Vitória B,2,Vitória B,1
+random_forest,teste_2018,2018,WC2018_0380,Russia,Croatia,1,Empate,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0381,France,Belgium,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0382,Croatia,England,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0383,Belgium,England,0,Vitória A,2,Vitória B,0
+random_forest,teste_2018,2018,WC2018_0384,France,Croatia,0,Vitória A,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0385,Qatar,Ecuador,2,Vitória B,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0386,Senegal,Netherlands,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0387,England,Iran,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0388,United States,Wales,1,Empate,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0389,Argentina,Saudi Arabia,2,Vitória B,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0390,Mexico,Poland,1,Empate,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0391,Denmark,Tunisia,1,Empate,1,Empate,1
+random_forest,avaliacao_2022,2022,WC2022_0392,France,Australia,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0393,Germany,Japan,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0394,Spain,Costa Rica,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0395,Morocco,Croatia,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0396,Belgium,Canada,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0397,Switzerland,Cameroon,0,Vitória A,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0398,Brazil,Serbia,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0399,Uruguay,South Korea,1,Empate,1,Empate,1
+random_forest,avaliacao_2022,2022,WC2022_0400,Portugal,Ghana,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0401,Qatar,Senegal,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0402,Netherlands,Ecuador,1,Empate,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0403,Wales,Iran,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0404,England,United States,1,Empate,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0405,Poland,Saudi Arabia,0,Vitória A,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0406,Argentina,Mexico,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0407,Tunisia,Australia,2,Vitória B,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0408,France,Denmark,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0409,Japan,Costa Rica,2,Vitória B,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0410,Spain,Germany,1,Empate,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0411,Belgium,Morocco,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0412,Croatia,Canada,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0413,Cameroon,Serbia,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0414,Brazil,Switzerland,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0415,South Korea,Ghana,2,Vitória B,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0416,Portugal,Uruguay,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0417,Ecuador,Senegal,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0418,Qatar,Netherlands,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0419,Wales,England,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0420,Iran,United States,2,Vitória B,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0421,Poland,Argentina,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0422,Saudi Arabia,Mexico,2,Vitória B,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0423,Australia,Denmark,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0424,Tunisia,France,0,Vitória A,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0425,Japan,Spain,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0426,Costa Rica,Germany,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0427,Croatia,Belgium,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0428,Canada,Morocco,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0429,Serbia,Switzerland,2,Vitória B,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0430,Cameroon,Brazil,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0431,Ghana,Uruguay,2,Vitória B,2,Vitória B,1
+random_forest,avaliacao_2022,2022,WC2022_0432,South Korea,Portugal,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0433,Netherlands,United States,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0434,Argentina,Australia,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0435,France,Poland,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0436,England,Senegal,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0437,Japan,Croatia,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0438,Brazil,South Korea,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0439,Morocco,Spain,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0440,Portugal,Switzerland,0,Vitória A,1,Empate,0
+random_forest,avaliacao_2022,2022,WC2022_0441,Croatia,Brazil,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0442,Netherlands,Argentina,1,Empate,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0443,Morocco,Portugal,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0444,England,France,2,Vitória B,0,Vitória A,0
+random_forest,avaliacao_2022,2022,WC2022_0445,Argentina,Croatia,0,Vitória A,0,Vitória A,1
+random_forest,avaliacao_2022,2022,WC2022_0446,France,Morocco,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0447,Croatia,Morocco,0,Vitória A,2,Vitória B,0
+random_forest,avaliacao_2022,2022,WC2022_0448,Argentina,France,1,Empate,0,Vitória A,0

@@ -1,0 +1,16 @@
+modelo,conjunto,accuracy,macro_f1,quantidade_partidas,quantidade_variaveis
+h1_ranking,validacao_2014,0.5938,0.4799,64,6
+h1_ranking,teste_2018,0.5312,0.4028,64,6
+h1_ranking,avaliacao_2022,0.4844,0.3675,64,6
+h2_ranking_forma_recente,validacao_2014,0.5312,0.4617,64,15
+h2_ranking_forma_recente,teste_2018,0.5,0.4626,64,15
+h2_ranking_forma_recente,avaliacao_2022,0.3281,0.3254,64,15
+h3_ranking_forma_ciclo,validacao_2014,0.4688,0.3931,64,28
+h3_ranking_forma_ciclo,teste_2018,0.5,0.4756,64,28
+h3_ranking_forma_ciclo,avaliacao_2022,0.5,0.4136,64,28
+h4_completo_sem_forca_adversarios,validacao_2014,0.4375,0.3887,64,29
+h4_completo_sem_forca_adversarios,teste_2018,0.5312,0.4802,64,29
+h4_completo_sem_forca_adversarios,avaliacao_2022,0.4219,0.3098,64,29
+modelo_completo,validacao_2014,0.4531,0.3789,64,32
+modelo_completo,teste_2018,0.5,0.4761,64,32
+modelo_completo,avaliacao_2022,0.4062,0.3289,64,32

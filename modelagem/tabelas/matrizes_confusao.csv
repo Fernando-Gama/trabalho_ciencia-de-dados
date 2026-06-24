@@ -1,0 +1,109 @@
+modelo,conjunto,classe_real,rotulo_real,classe_prevista,rotulo_previsto,quantidade
+baseline_classe_majoritaria,validacao_2014,0,Vitória A,0,Vitória A,29
+baseline_classe_majoritaria,validacao_2014,0,Vitória A,1,Empate,0
+baseline_classe_majoritaria,validacao_2014,0,Vitória A,2,Vitória B,0
+baseline_classe_majoritaria,validacao_2014,1,Empate,0,Vitória A,13
+baseline_classe_majoritaria,validacao_2014,1,Empate,1,Empate,0
+baseline_classe_majoritaria,validacao_2014,1,Empate,2,Vitória B,0
+baseline_classe_majoritaria,validacao_2014,2,Vitória B,0,Vitória A,22
+baseline_classe_majoritaria,validacao_2014,2,Vitória B,1,Empate,0
+baseline_classe_majoritaria,validacao_2014,2,Vitória B,2,Vitória B,0
+baseline_classe_majoritaria,teste_2018,0,Vitória A,0,Vitória A,25
+baseline_classe_majoritaria,teste_2018,0,Vitória A,1,Empate,0
+baseline_classe_majoritaria,teste_2018,0,Vitória A,2,Vitória B,0
+baseline_classe_majoritaria,teste_2018,1,Empate,0,Vitória A,13
+baseline_classe_majoritaria,teste_2018,1,Empate,1,Empate,0
+baseline_classe_majoritaria,teste_2018,1,Empate,2,Vitória B,0
+baseline_classe_majoritaria,teste_2018,2,Vitória B,0,Vitória A,26
+baseline_classe_majoritaria,teste_2018,2,Vitória B,1,Empate,0
+baseline_classe_majoritaria,teste_2018,2,Vitória B,2,Vitória B,0
+baseline_classe_majoritaria,avaliacao_2022,0,Vitória A,0,Vitória A,28
+baseline_classe_majoritaria,avaliacao_2022,0,Vitória A,1,Empate,0
+baseline_classe_majoritaria,avaliacao_2022,0,Vitória A,2,Vitória B,0
+baseline_classe_majoritaria,avaliacao_2022,1,Empate,0,Vitória A,15
+baseline_classe_majoritaria,avaliacao_2022,1,Empate,1,Empate,0
+baseline_classe_majoritaria,avaliacao_2022,1,Empate,2,Vitória B,0
+baseline_classe_majoritaria,avaliacao_2022,2,Vitória B,0,Vitória A,21
+baseline_classe_majoritaria,avaliacao_2022,2,Vitória B,1,Empate,0
+baseline_classe_majoritaria,avaliacao_2022,2,Vitória B,2,Vitória B,0
+regressao_logistica,validacao_2014,0,Vitória A,0,Vitória A,16
+regressao_logistica,validacao_2014,0,Vitória A,1,Empate,5
+regressao_logistica,validacao_2014,0,Vitória A,2,Vitória B,8
+regressao_logistica,validacao_2014,1,Empate,0,Vitória A,5
+regressao_logistica,validacao_2014,1,Empate,1,Empate,1
+regressao_logistica,validacao_2014,1,Empate,2,Vitória B,7
+regressao_logistica,validacao_2014,2,Vitória B,0,Vitória A,8
+regressao_logistica,validacao_2014,2,Vitória B,1,Empate,2
+regressao_logistica,validacao_2014,2,Vitória B,2,Vitória B,12
+regressao_logistica,teste_2018,0,Vitória A,0,Vitória A,11
+regressao_logistica,teste_2018,0,Vitória A,1,Empate,6
+regressao_logistica,teste_2018,0,Vitória A,2,Vitória B,8
+regressao_logistica,teste_2018,1,Empate,0,Vitória A,3
+regressao_logistica,teste_2018,1,Empate,1,Empate,5
+regressao_logistica,teste_2018,1,Empate,2,Vitória B,5
+regressao_logistica,teste_2018,2,Vitória B,0,Vitória A,3
+regressao_logistica,teste_2018,2,Vitória B,1,Empate,7
+regressao_logistica,teste_2018,2,Vitória B,2,Vitória B,16
+regressao_logistica,avaliacao_2022,0,Vitória A,0,Vitória A,10
+regressao_logistica,avaliacao_2022,0,Vitória A,1,Empate,6
+regressao_logistica,avaliacao_2022,0,Vitória A,2,Vitória B,12
+regressao_logistica,avaliacao_2022,1,Empate,0,Vitória A,5
+regressao_logistica,avaliacao_2022,1,Empate,1,Empate,0
+regressao_logistica,avaliacao_2022,1,Empate,2,Vitória B,10
+regressao_logistica,avaliacao_2022,2,Vitória B,0,Vitória A,2
+regressao_logistica,avaliacao_2022,2,Vitória B,1,Empate,3
+regressao_logistica,avaliacao_2022,2,Vitória B,2,Vitória B,16
+arvore_decisao,validacao_2014,0,Vitória A,0,Vitória A,8
+arvore_decisao,validacao_2014,0,Vitória A,1,Empate,18
+arvore_decisao,validacao_2014,0,Vitória A,2,Vitória B,3
+arvore_decisao,validacao_2014,1,Empate,0,Vitória A,5
+arvore_decisao,validacao_2014,1,Empate,1,Empate,6
+arvore_decisao,validacao_2014,1,Empate,2,Vitória B,2
+arvore_decisao,validacao_2014,2,Vitória B,0,Vitória A,6
+arvore_decisao,validacao_2014,2,Vitória B,1,Empate,8
+arvore_decisao,validacao_2014,2,Vitória B,2,Vitória B,8
+arvore_decisao,teste_2018,0,Vitória A,0,Vitória A,9
+arvore_decisao,teste_2018,0,Vitória A,1,Empate,13
+arvore_decisao,teste_2018,0,Vitória A,2,Vitória B,3
+arvore_decisao,teste_2018,1,Empate,0,Vitória A,6
+arvore_decisao,teste_2018,1,Empate,1,Empate,4
+arvore_decisao,teste_2018,1,Empate,2,Vitória B,3
+arvore_decisao,teste_2018,2,Vitória B,0,Vitória A,3
+arvore_decisao,teste_2018,2,Vitória B,1,Empate,10
+arvore_decisao,teste_2018,2,Vitória B,2,Vitória B,13
+arvore_decisao,avaliacao_2022,0,Vitória A,0,Vitória A,8
+arvore_decisao,avaliacao_2022,0,Vitória A,1,Empate,15
+arvore_decisao,avaliacao_2022,0,Vitória A,2,Vitória B,5
+arvore_decisao,avaliacao_2022,1,Empate,0,Vitória A,2
+arvore_decisao,avaliacao_2022,1,Empate,1,Empate,5
+arvore_decisao,avaliacao_2022,1,Empate,2,Vitória B,8
+arvore_decisao,avaliacao_2022,2,Vitória B,0,Vitória A,5
+arvore_decisao,avaliacao_2022,2,Vitória B,1,Empate,11
+arvore_decisao,avaliacao_2022,2,Vitória B,2,Vitória B,5
+random_forest,validacao_2014,0,Vitória A,0,Vitória A,16
+random_forest,validacao_2014,0,Vitória A,1,Empate,11
+random_forest,validacao_2014,0,Vitória A,2,Vitória B,2
+random_forest,validacao_2014,1,Empate,0,Vitória A,7
+random_forest,validacao_2014,1,Empate,1,Empate,0
+random_forest,validacao_2014,1,Empate,2,Vitória B,6
+random_forest,validacao_2014,2,Vitória B,0,Vitória A,4
+random_forest,validacao_2014,2,Vitória B,1,Empate,3
+random_forest,validacao_2014,2,Vitória B,2,Vitória B,15
+random_forest,teste_2018,0,Vitória A,0,Vitória A,11
+random_forest,teste_2018,0,Vitória A,1,Empate,6
+random_forest,teste_2018,0,Vitória A,2,Vitória B,8
+random_forest,teste_2018,1,Empate,0,Vitória A,4
+random_forest,teste_2018,1,Empate,1,Empate,1
+random_forest,teste_2018,1,Empate,2,Vitória B,8
+random_forest,teste_2018,2,Vitória B,0,Vitória A,4
+random_forest,teste_2018,2,Vitória B,1,Empate,7
+random_forest,teste_2018,2,Vitória B,2,Vitória B,15
+random_forest,avaliacao_2022,0,Vitória A,0,Vitória A,15
+random_forest,avaliacao_2022,0,Vitória A,1,Empate,4
+random_forest,avaliacao_2022,0,Vitória A,2,Vitória B,9
+random_forest,avaliacao_2022,1,Empate,0,Vitória A,6
+random_forest,avaliacao_2022,1,Empate,1,Empate,2
+random_forest,avaliacao_2022,1,Empate,2,Vitória B,7
+random_forest,avaliacao_2022,2,Vitória B,0,Vitória A,5
+random_forest,avaliacao_2022,2,Vitória B,1,Empate,4
+random_forest,avaliacao_2022,2,Vitória B,2,Vitória B,12

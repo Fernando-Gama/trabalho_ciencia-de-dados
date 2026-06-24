@@ -1,0 +1,37 @@
+modelo,conjunto,classe,rotulo,precision,recall,f1,support
+baseline_classe_majoritaria,validacao_2014,0,Vitória A,0.4531,1.0,0.6237,29
+baseline_classe_majoritaria,validacao_2014,1,Empate,0.0,0.0,0.0,13
+baseline_classe_majoritaria,validacao_2014,2,Vitória B,0.0,0.0,0.0,22
+baseline_classe_majoritaria,teste_2018,0,Vitória A,0.3906,1.0,0.5618,25
+baseline_classe_majoritaria,teste_2018,1,Empate,0.0,0.0,0.0,13
+baseline_classe_majoritaria,teste_2018,2,Vitória B,0.0,0.0,0.0,26
+baseline_classe_majoritaria,avaliacao_2022,0,Vitória A,0.4375,1.0,0.6087,28
+baseline_classe_majoritaria,avaliacao_2022,1,Empate,0.0,0.0,0.0,15
+baseline_classe_majoritaria,avaliacao_2022,2,Vitória B,0.0,0.0,0.0,21
+regressao_logistica,validacao_2014,0,Vitória A,0.5517,0.5517,0.5517,29
+regressao_logistica,validacao_2014,1,Empate,0.125,0.0769,0.0952,13
+regressao_logistica,validacao_2014,2,Vitória B,0.4444,0.5455,0.4898,22
+regressao_logistica,teste_2018,0,Vitória A,0.6471,0.44,0.5238,25
+regressao_logistica,teste_2018,1,Empate,0.2778,0.3846,0.3226,13
+regressao_logistica,teste_2018,2,Vitória B,0.5517,0.6154,0.5818,26
+regressao_logistica,avaliacao_2022,0,Vitória A,0.5882,0.3571,0.4444,28
+regressao_logistica,avaliacao_2022,1,Empate,0.0,0.0,0.0,15
+regressao_logistica,avaliacao_2022,2,Vitória B,0.4211,0.7619,0.5424,21
+arvore_decisao,validacao_2014,0,Vitória A,0.4211,0.2759,0.3333,29
+arvore_decisao,validacao_2014,1,Empate,0.1875,0.4615,0.2667,13
+arvore_decisao,validacao_2014,2,Vitória B,0.6154,0.3636,0.4571,22
+arvore_decisao,teste_2018,0,Vitória A,0.5,0.36,0.4186,25
+arvore_decisao,teste_2018,1,Empate,0.1481,0.3077,0.2,13
+arvore_decisao,teste_2018,2,Vitória B,0.6842,0.5,0.5778,26
+arvore_decisao,avaliacao_2022,0,Vitória A,0.5333,0.2857,0.3721,28
+arvore_decisao,avaliacao_2022,1,Empate,0.1613,0.3333,0.2174,15
+arvore_decisao,avaliacao_2022,2,Vitória B,0.2778,0.2381,0.2564,21
+random_forest,validacao_2014,0,Vitória A,0.5926,0.5517,0.5714,29
+random_forest,validacao_2014,1,Empate,0.0,0.0,0.0,13
+random_forest,validacao_2014,2,Vitória B,0.6522,0.6818,0.6667,22
+random_forest,teste_2018,0,Vitória A,0.5789,0.44,0.5,25
+random_forest,teste_2018,1,Empate,0.0714,0.0769,0.0741,13
+random_forest,teste_2018,2,Vitória B,0.4839,0.5769,0.5263,26
+random_forest,avaliacao_2022,0,Vitória A,0.5769,0.5357,0.5556,28
+random_forest,avaliacao_2022,1,Empate,0.2,0.1333,0.16,15
+random_forest,avaliacao_2022,2,Vitória B,0.4286,0.5714,0.4898,21
