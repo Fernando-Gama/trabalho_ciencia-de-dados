@@ -1,0 +1,12 @@
+hipotese,variavel,teste,estatistica,p_valor,graus_liberdade,tamanho_efeito,medida_efeito,significativo_5pct,interpretacao
+H1 - Ranking FIFA,diff_rank_faixa,qui-quadrado,57.119462,0.0,8,0.252486,V de Cramer,1,H1 - Ranking FIFA: associação estatisticamente significativa com efeito moderado.
+H2 - Forma recente,diff_last10_points_per_game_sinal,qui-quadrado,24.976617,5.1e-05,4,0.16696,V de Cramer,1,H2 - Forma recente: associação estatisticamente significativa com efeito moderado.
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,qui-quadrado,26.925386,2.1e-05,4,0.173351,V de Cramer,1,H3 - Ciclo pré-Copa: associação estatisticamente significativa com efeito moderado.
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,qui-quadrado,1.519441,0.467797,2,0.058238,V de Cramer,0,H4 - Força dos adversários: não houve evidência estatística forte de associação.
+H1 - Ranking FIFA,diff_rank,Spearman,-0.369011,0.0,,0.369011,|rho|,1,H1 - Ranking FIFA: correlação negativa estatisticamente significativa.
+H1 - Pontos FIFA,diff_fifa_points,Spearman,0.355522,0.0,,0.355522,|rho|,1,H1 - Pontos FIFA: correlação positiva estatisticamente significativa.
+H2 - Forma recente,diff_last10_points_per_game,Spearman,0.297127,0.0,,0.297127,|rho|,1,H2 - Forma recente: correlação positiva estatisticamente significativa.
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game,Spearman,0.290057,0.0,,0.290057,|rho|,1,H3 - Ciclo pré-Copa: correlação positiva estatisticamente significativa.
+H3 - Ataque no ciclo,diff_cycle_goals_for_per_game,Spearman,0.247088,0.0,,0.247088,|rho|,1,H3 - Ataque no ciclo: correlação positiva estatisticamente significativa.
+H3 - Defesa no ciclo,diff_cycle_goals_against_per_game,Spearman,-0.195765,3e-05,,0.195765,|rho|,1,H3 - Defesa no ciclo: correlação negativa estatisticamente significativa.
+H4 - Força dos adversários,diff_last10_opponent_points_mean,Spearman,0.10571,0.025254,,0.10571,|rho|,1,H4 - Força dos adversários: correlação positiva estatisticamente significativa.

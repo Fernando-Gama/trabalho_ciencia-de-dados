@@ -101,6 +101,23 @@ As saídas são salvas em `modelagem/`:
 - `tabelas/avaliacao_hipoteses.csv`: comparação dos grupos de atributos;
 - `graficos/`: comparação dos modelos, matriz de confusão e importância de variáveis.
 
+## Testes estatísticos das hipóteses
+
+Além da avaliação preditiva, o projeto possui testes estatísticos de associação:
+
+```bash
+./venv/bin/python testes_hipoteses.py
+```
+
+As saídas são salvas em `testes_hipoteses/`:
+
+- `resumo_testes_hipoteses.md`: resumo interpretativo dos testes;
+- `tabelas/resumo_testes_hipoteses.csv`: estatística, p-valor e tamanho de efeito;
+- `tabelas/tabelas_contingencia.csv`: tabelas de contingência usadas no qui-quadrado.
+
+Foram usados qui-quadrado de independência e correlação de Spearman. Esses testes
+avaliam associação estatística entre atributos e resultado, sem afirmar causalidade.
+
 ## Metodologia
 
 Para cada edição entre 1998 e 2022, o ciclo começa depois da última partida da Copa

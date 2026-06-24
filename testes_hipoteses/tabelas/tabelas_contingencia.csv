@@ -1,0 +1,40 @@
+hipotese,variavel,categoria,classe_resultado,rotulo_resultado,quantidade,percentual_na_categoria,esperado
+H1 - Ranking FIFA,diff_rank_faixa,A melhor,0,Vitória A,70,58.33,52.5
+H1 - Ranking FIFA,diff_rank_faixa,A melhor,1,Empate,27,22.5,28.661
+H1 - Ranking FIFA,diff_rank_faixa,A melhor,2,Vitória B,23,19.17,38.839
+H1 - Ranking FIFA,diff_rank_faixa,A muito melhor,0,Vitória A,35,68.63,22.312
+H1 - Ranking FIFA,diff_rank_faixa,A muito melhor,1,Empate,9,17.65,12.181
+H1 - Ranking FIFA,diff_rank_faixa,A muito melhor,2,Vitória B,7,13.73,16.507
+H1 - Ranking FIFA,diff_rank_faixa,B melhor,0,Vitória A,17,20.99,35.438
+H1 - Ranking FIFA,diff_rank_faixa,B melhor,1,Empate,21,25.93,19.346
+H1 - Ranking FIFA,diff_rank_faixa,B melhor,2,Vitória B,43,53.09,26.217
+H1 - Ranking FIFA,diff_rank_faixa,B muito melhor,0,Vitória A,12,25.53,20.562
+H1 - Ranking FIFA,diff_rank_faixa,B muito melhor,1,Empate,10,21.28,11.225
+H1 - Ranking FIFA,diff_rank_faixa,B muito melhor,2,Vitória B,25,53.19,15.212
+H1 - Ranking FIFA,diff_rank_faixa,Equilibrado,0,Vitória A,62,41.61,65.188
+H1 - Ranking FIFA,diff_rank_faixa,Equilibrado,1,Empate,40,26.85,35.587
+H1 - Ranking FIFA,diff_rank_faixa,Equilibrado,2,Vitória B,47,31.54,48.225
+H2 - Forma recente,diff_last10_points_per_game_sinal,A maior,0,Vitória A,120,52.4,100.188
+H2 - Forma recente,diff_last10_points_per_game_sinal,A maior,1,Empate,55,24.02,54.694
+H2 - Forma recente,diff_last10_points_per_game_sinal,A maior,2,Vitória B,54,23.58,74.118
+H2 - Forma recente,diff_last10_points_per_game_sinal,B maior,0,Vitória A,64,32.16,87.062
+H2 - Forma recente,diff_last10_points_per_game_sinal,B maior,1,Empate,49,24.62,47.529
+H2 - Forma recente,diff_last10_points_per_game_sinal,B maior,2,Vitória B,86,43.22,64.408
+H2 - Forma recente,diff_last10_points_per_game_sinal,Equilibrado,0,Vitória A,12,60.0,8.75
+H2 - Forma recente,diff_last10_points_per_game_sinal,Equilibrado,1,Empate,3,15.0,4.777
+H2 - Forma recente,diff_last10_points_per_game_sinal,Equilibrado,2,Vitória B,5,25.0,6.473
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,A maior,0,Vitória A,129,53.31,105.875
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,A maior,1,Empate,56,23.14,57.799
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,A maior,2,Vitória B,57,23.55,78.326
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,B maior,0,Vitória A,67,32.68,89.688
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,B maior,1,Empate,50,24.39,48.962
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,B maior,2,Vitória B,88,42.93,66.35
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,Equilibrado,0,Vitória A,0,0.0,0.438
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,Equilibrado,1,Empate,1,100.0,0.239
+H3 - Ciclo pré-Copa,diff_cycle_points_per_game_sinal,Equilibrado,2,Vitória B,0,0.0,0.324
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença alta (>= 52.800),0,Vitória A,102,45.54,98.0
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença alta (>= 52.800),1,Empate,48,21.43,53.5
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença alta (>= 52.800),2,Vitória B,74,33.04,72.5
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença baixa (< 52.800),0,Vitória A,94,41.96,98.0
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença baixa (< 52.800),1,Empate,59,26.34,53.5
+H4 - Força dos adversários,diff_last10_opponent_points_mean_abs,diferença baixa (< 52.800),2,Vitória B,71,31.7,72.5

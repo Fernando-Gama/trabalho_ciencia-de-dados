@@ -104,6 +104,27 @@ def build_styles() -> dict[str, ParagraphStyle]:
             spaceAfter=8,
         )
     )
+    styles.add(
+        ParagraphStyle(
+            name="TocEntry",
+            parent=styles["BodyText"],
+            fontSize=10,
+            leading=13,
+            leftIndent=0,
+            spaceAfter=2,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="TocSubEntry",
+            parent=styles["BodyText"],
+            fontSize=9,
+            leading=12,
+            leftIndent=14,
+            textColor=colors.HexColor("#444444"),
+            spaceAfter=1,
+        )
+    )
     return styles
 
 
@@ -260,47 +281,90 @@ def build_document() -> list:
             styles["SubtitleCenter"],
         ),
     ]
+    story.extend(
+        [
+            Paragraph("Sumário", styles["Heading1"]),
+            Paragraph("1. Contexto, Motivação e Objetivo", styles["TocEntry"]),
+            Paragraph("Contexto; Motivação; Objetivo", styles["TocSubEntry"]),
+            Paragraph("2. Enquadramento Analítico", styles["TocEntry"]),
+            Paragraph("3. Hipóteses Sobre o Fenômeno", styles["TocEntry"]),
+            Paragraph("4. Metodologia e Modelagem", styles["TocEntry"]),
+            Paragraph(
+                "Construção do Dataset; Prevenção de Vazamento Temporal; Engenharia e Seleção de Atributos; Estratégia de Validação",
+                styles["TocSubEntry"],
+            ),
+            Paragraph("5. Dados e Resultados", styles["TocEntry"]),
+            Paragraph(
+                "Análise Exploratória; Resultados da Modelagem; Avaliação das Hipóteses; Testes Estatísticos",
+                styles["TocSubEntry"],
+            ),
+            Paragraph("6. Discussão e Conclusão", styles["TocEntry"]),
+            Paragraph("Referências e Bases de Dados", styles["TocEntry"]),
+            Spacer(1, 0.4 * cm),
+        ]
+    )
 
     story.extend(section("1. Contexto, Motivação e Objetivo", styles))
+    story.extend(subsection("Contexto", styles))
     story.append(
         paragraph(
             "A Copa do Mundo FIFA é uma das competições esportivas mais acompanhadas "
-            "do mundo e oferece um cenário rico para análise de dados. Este trabalho "
-            "investiga se informações disponíveis antes do início de cada torneio, "
-            "como ranking FIFA e desempenho no ciclo pré-Copa, ajudam a prever o "
-            "resultado das partidas.",
+            "do mundo. Além do interesse esportivo, o torneio oferece um cenário rico "
+            "para análise de dados, pois envolve seleções de diferentes continentes, "
+            "históricos competitivos distintos, rankings internacionais e partidas de "
+            "alta pressão.",
             styles,
         )
     )
+    story.extend(subsection("Motivação", styles))
+    story.append(
+        paragraph(
+            "A análise de dados aplicada ao esporte, conhecida como sports analytics, "
+            "é usada para apoiar decisões, avaliar desempenho e estimar probabilidades "
+            "de resultados. No futebol, a previsão é especialmente difícil porque o "
+            "resultado depende de fatores de curto prazo, como escalação, lesões, "
+            "estratégia, expulsões e eventos aleatórios durante o jogo.",
+            styles,
+        )
+    )
+    story.extend(subsection("Objetivo", styles))
     story.append(
         paragraph(
             "O objetivo é construir e avaliar modelos de classificação supervisionada "
             "para prever três classes: vitória da Seleção A, empate e vitória da "
-            "Seleção B.",
+            "Seleção B, usando somente informações disponíveis antes do início da Copa.",
             styles,
         )
     )
     story.append(
         paragraph(
             "O dataset FIFA World Cup Dataset (2002-2026), indicado nas orientações "
-            "do trabalho, foi considerado como referência temática. Para adequar o "
-            "problema à previsão de partidas, foi construído um dataset derivado que "
-            "combina resultados internacionais e rankings semestrais da FIFA. Essa "
-            "decisão permitiu calcular atributos anteriores à Copa e prever o resultado "
-            "de cada jogo do torneio. A edição de 2026 não foi usada na modelagem "
-            "porque ainda não possui resultados finais completos, ou seja, não há "
-            "rótulos reais para treinamento ou avaliação.",
+            "do trabalho, foi analisado no planejamento do tema, mas não foi usado "
+            "diretamente no processamento final. Ele possui estrutura mais voltada "
+            "para desempenho de seleções em torneios, enquanto o objetivo deste "
+            "trabalho exige uma base em nível de partida. Por isso, foi construído "
+            "um dataset derivado a partir de duas fontes principais: resultados "
+            "internacionais de seleções e ranking FIFA.",
             styles,
         )
     )
     story.append(
         paragraph(
-            "As bases usadas foram: resultados internacionais de seleções, disponíveis "
-            "em https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017; "
-            "ranking masculino FIFA, obtido no Kaggle em "
-            "https://www.kaggle.com/datasets/lucasyukioimafuko/fifa-mens-world-ranking; "
-            "e o dataset FIFA World "
-            "Cup Dataset (2002-2026), disponibilizado como referência da disciplina.",
+            "A base de resultados internacionais foi usada porque contém datas, "
+            "seleções, placares, torneios e informação de campo neutro, permitindo "
+            "identificar partidas da Copa e calcular o histórico pré-Copa. A base de "
+            "ranking masculino da FIFA foi usada porque fornece uma medida externa de "
+            "força relativa das seleções antes do torneio. A combinação das duas bases "
+            "permitiu criar atributos anteriores à Copa e prever cada jogo sem usar "
+            "informações futuras. A edição de 2026 não foi usada porque ainda não "
+            "possui resultados finais completos.",
+            styles,
+        )
+    )
+    story.append(
+        paragraph(
+            "Os links completos das fontes utilizadas estão apresentados ao final do "
+            "relatório, na seção de referências e bases de dados.",
             styles,
         )
     )
@@ -338,25 +402,26 @@ def build_document() -> list:
         story.append(paragraph(f"• {item}", styles))
 
     story.extend(section("4. Metodologia e Modelagem", styles))
+    story.extend(subsection("Construção do Dataset", styles))
     story.append(
         paragraph(
             "O dataset derivado foi construído a partir de uma base de resultados "
             "internacionais e uma base de rankings semestrais da FIFA. Cada linha "
-            "representa uma partida de Copa do Mundo entre 1998 e 2022. Para evitar "
-            "vazamento de informação, os atributos foram calculados apenas com dados "
-            "anteriores ao início da Copa correspondente.",
+            "representa uma partida de Copa do Mundo entre 1998 e 2022.",
             styles,
         )
     )
+    story.extend(subsection("Prevenção de Vazamento Temporal", styles))
     story.append(
         paragraph(
-            "A divisão temporal foi: treinamento nas Copas de 1998 a 2010, validação "
-            "em 2014, teste final em 2018 e avaliação adicional em 2022. Foram "
-            "removidos do treino os placares reais, o alvo e metadados como nomes "
-            "das seleções e datas.",
+            "Para evitar vazamento de informação, os atributos de cada Copa foram "
+            "calculados apenas com dados anteriores ao início do torneio. O ciclo de "
+            "uma Copa começa após a final da Copa anterior e termina antes da abertura "
+            "da Copa analisada. O ranking utilizado foi sempre o do semestre anterior.",
             styles,
         )
     )
+    story.extend(subsection("Engenharia e Seleção de Atributos", styles))
     story.append(
         paragraph(
             "O pré-processamento incluiu padronização de nomes de seleções entre as "
@@ -367,6 +432,26 @@ def build_document() -> list:
             styles,
         )
     )
+    story.append(
+        paragraph(
+            "O dataset resultante possui 448 partidas e 45 colunas. Para a modelagem, "
+            "foram removidos os placares reais, o alvo e metadados como nomes das "
+            "seleções, datas e identificadores. Assim, os modelos utilizaram 32 "
+            "variáveis explicativas.",
+            styles,
+        )
+    )
+    story.extend(subsection("Estratégia de Validação", styles))
+    story.append(
+        paragraph(
+            "A divisão temporal foi: treinamento nas Copas de 1998 a 2010, validação "
+            "em 2014, teste final em 2018 e avaliação adicional em 2022. Essa divisão "
+            "simula um cenário realista, em que o modelo aprende com Copas anteriores "
+            "e é avaliado em Copas futuras.",
+            styles,
+        )
+    )
+    story.extend(subsection("Ferramentas Utilizadas", styles))
     story.append(
         paragraph(
             "As ferramentas utilizadas foram Python, scikit-learn para modelagem, "
@@ -544,6 +629,58 @@ elif year == 2022:
             "tiveram resultado competitivo em alguns cenários, mas sem ganho consistente "
             "na validação. H4 não foi confirmada de forma clara, pois a força dos "
             "adversários recentes não melhorou o modelo completo na validação.",
+            styles,
+        )
+    )
+    story.extend(subsection("Testes Estatísticos das Hipóteses", styles))
+    story.append(
+        paragraph(
+            "Além da comparação preditiva, foram executados testes estatísticos para "
+            "avaliar associação entre atributos e resultado. Foram usados qui-quadrado "
+            "de independência para variáveis categorizadas e correlação de Spearman "
+            "para atributos numéricos. O resultado foi convertido para escala "
+            "direcional: vitória da Seleção A = 1, empate = 0 e vitória da Seleção B = -1.",
+            styles,
+        )
+    )
+    story.append(
+        paragraph(
+            "O qui-quadrado foi escolhido porque o alvo é categórico e algumas "
+            "hipóteses foram avaliadas por faixas, como diferença de ranking e "
+            "vantagem de forma recente. Esse teste verifica se a distribuição dos "
+            "resultados muda entre os grupos. Como complemento, foi usado o V de "
+            "Cramer para medir o tamanho do efeito, já que o p-valor indica associação, "
+            "mas não informa sua intensidade.",
+            styles,
+        )
+    )
+    story.append(
+        paragraph(
+            "A correlação de Spearman foi escolhida para atributos numéricos porque "
+            "mede associação monotônica sem exigir normalidade dos dados. Isso é "
+            "adequado para variáveis como diferença de ranking, pontos FIFA e "
+            "aproveitamento pré-Copa, que podem não seguir distribuição normal. "
+            "Esses testes complementam a modelagem preditiva e indicam associação, "
+            "não causalidade.",
+            styles,
+        )
+    )
+    statistical_table = [
+        ["Hipótese", "Teste principal", "p-valor", "Efeito"],
+        ["H1 - Ranking FIFA", "Qui-quadrado", "<0,001", "V=0,252"],
+        ["H2 - Forma recente", "Qui-quadrado", "<0,001", "V=0,167"],
+        ["H3 - Ciclo pré-Copa", "Qui-quadrado", "<0,001", "V=0,173"],
+        ["H4 - Força dos adversários", "Qui-quadrado", "0,468", "V=0,058"],
+    ]
+    story.append(styled_table(statistical_table, [5.5 * cm, 4.0 * cm, 2.5 * cm, 2.5 * cm]))
+    story.append(Spacer(1, 0.25 * cm))
+    story.append(
+        paragraph(
+            "Os testes reforçam que ranking FIFA, forma recente e desempenho no ciclo "
+            "pré-Copa possuem associação estatística com o resultado. O maior efeito "
+            "foi observado em H1, confirmando o ranking como fator mais consistente. "
+            "A H4 não apresentou evidência forte no qui-quadrado, embora a correlação "
+            "de Spearman para força dos adversários tenha sido significativa, porém fraca.",
             styles,
         )
     )

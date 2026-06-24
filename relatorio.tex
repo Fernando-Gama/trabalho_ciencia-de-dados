@@ -44,6 +44,9 @@
 
 \maketitle
 
+\tableofcontents
+\newpage
+
 \begin{abstract}
 Este trabalho investiga a predição de resultados de partidas da Copa do Mundo
 utilizando dados anteriores ao início de cada torneio. Foi construído um dataset
@@ -61,6 +64,8 @@ garantiu melhora uniforme, possivelmente devido ao tamanho reduzido da amostra e
 
 \section{Contexto, Motivação e Objetivo}
 
+\subsection{Contexto}
+
 A Copa do Mundo FIFA é uma das competições esportivas mais acompanhadas do
 mundo. Além do interesse esportivo, o torneio oferece um cenário rico para
 análise de dados, pois envolve seleções de diferentes continentes, históricos
@@ -68,12 +73,16 @@ competitivos distintos, rankings internacionais e partidas de alta pressão.
 Nesse contexto, técnicas de ciência de dados podem ser usadas para investigar
 quais fatores estão associados ao desempenho das seleções.
 
+\subsection{Motivação}
+
 Nos últimos anos, a análise de dados aplicada ao esporte, conhecida como
 \textit{sports analytics}, passou a ser usada em diferentes modalidades para
 apoiar decisões, avaliar desempenho e estimar probabilidades de resultados.
 No futebol, entretanto, a previsão de partidas é especialmente difícil, pois o
 resultado depende de muitos fatores de curto prazo, como escalação, lesões,
 estratégia, expulsões e eventos aleatórios durante o jogo.
+
+\subsection{Objetivo}
 
 O objetivo deste trabalho é construir e avaliar modelos de classificação capazes
 de prever o resultado de partidas da Copa do Mundo usando somente informações
@@ -90,24 +99,24 @@ junto com o ranking FIFA, contém informação útil para prever os resultados d
 partidas do torneio.
 
 O dataset fornecido como referência pela disciplina, FIFA World Cup Dataset
-(2002--2026), foi considerado no planejamento do tema. Entretanto, para permitir
-uma modelagem por partida e utilizar informações anteriores a cada Copa, foi
-construído um dataset derivado combinando resultados internacionais e ranking
-FIFA. Assim, o trabalho mantém o tema da Copa do Mundo, mas adapta a base para
-um problema supervisionado de previsão partida a partida. A edição de 2026 não
-foi utilizada na modelagem porque ainda não possui resultados finais completos,
-isto é, não há rótulos reais para treinamento ou avaliação.
+(2002--2026), foi analisado no planejamento do tema, mas não foi usado
+diretamente no processamento final. Ele possui estrutura mais voltada para
+desempenho de seleções em torneios, enquanto o objetivo deste trabalho exige uma
+base em nível de partida. Por isso, foi construído um dataset derivado a partir
+de duas fontes principais: resultados internacionais de seleções e ranking FIFA.
 
-As bases utilizadas no processamento foram:
+A base de resultados internacionais foi utilizada porque contém datas, seleções,
+placares, torneios e informação de campo neutro, permitindo identificar partidas
+da Copa do Mundo e calcular o histórico pré-Copa de cada seleção. Já a base de
+ranking masculino da FIFA foi utilizada porque fornece uma medida externa de
+força relativa das seleções antes do torneio. A combinação das duas bases tornou
+possível criar atributos anteriores à Copa e prever o resultado de cada jogo sem
+usar informações futuras. A edição de 2026 não foi usada porque ainda não possui
+resultados finais completos, isto é, não há rótulos reais para treinamento ou
+avaliação.
 
-\begin{itemize}
-    \item resultados internacionais de seleções, disponíveis no Kaggle em
-    \url{https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017};
-    \item ranking masculino FIFA, obtido no Kaggle em
-    \url{https://www.kaggle.com/datasets/lucasyukioimafuko/fifa-mens-world-ranking};
-    \item dataset FIFA World Cup Dataset (2002--2026), disponibilizado como
-    base de referência da disciplina.
-\end{itemize}
+Os links completos das fontes utilizadas estão apresentados ao final do
+relatório, na seção de referências e bases de dados.
 
 \section{Enquadramento Analítico}
 
@@ -164,16 +173,22 @@ do dataset construído.
 
 \section{Metodologia e Modelagem}
 
+\subsection{Construção do Dataset}
+
 Foram utilizadas duas bases principais: uma base de resultados internacionais e
 uma base de ranking FIFA semestral. A partir delas foi criado um dataset
 derivado, em que cada linha representa uma partida da Copa do Mundo entre 1998 e
 2022.
+
+\subsection{Prevenção de Vazamento Temporal}
 
 Para evitar vazamento de informação, os atributos de cada Copa foram calculados
 somente com partidas anteriores ao início daquele torneio. O ciclo de uma Copa
 começa após a final da Copa anterior e termina antes da abertura da Copa
 analisada. O ranking FIFA utilizado foi sempre o do semestre anterior ao início
 da competição.
+
+\subsection{Engenharia e Seleção de Atributos}
 
 Foram calculadas variáveis como:
 
@@ -198,6 +213,8 @@ estatísticas agregadas e criação de variáveis de diferença entre as seleç�
 Exemplos dessas diferenças são diferença de ranking, diferença de pontos FIFA,
 diferença de aproveitamento recente e diferença de desempenho no ciclo.
 
+\subsection{Estratégia de Validação}
+
 A divisão temporal adotada foi:
 
 \begin{itemize}
@@ -209,6 +226,8 @@ A divisão temporal adotada foi:
 
 Essa divisão é importante porque simula um cenário realista: o modelo aprende
 com Copas anteriores e é avaliado em Copas futuras.
+
+\subsection{Ferramentas Utilizadas}
 
 As ferramentas utilizadas foram Python, biblioteca padrão \texttt{csv} para
 tratamento dos arquivos, scikit-learn para modelagem, matplotlib e seaborn para
@@ -432,6 +451,54 @@ resultados no teste de 2018 foram competitivos, mas a validação de 2014 não
 indicou ganho consistente. A H4 não foi confirmada de forma clara, já que a
 inclusão da força dos adversários não melhorou o modelo completo na validação.
 
+\subsection{Testes Estatísticos das Hipóteses}
+
+Além da comparação preditiva, foram executados testes estatísticos para avaliar
+associação entre atributos e resultado. Foram usados qui-quadrado de
+independência para variáveis categorizadas e correlação de Spearman para
+atributos numéricos. O resultado foi convertido para escala direcional, em que
+vitória da Seleção A vale 1, empate vale 0 e vitória da Seleção B vale -1.
+
+A escolha do qui-quadrado se justifica porque o alvo do problema é categórico
+(vitória da Seleção A, empate ou vitória da Seleção B) e algumas hipóteses foram
+avaliadas por faixas ou categorias, como diferença de ranking e vantagem de forma
+recente. Esse teste permite verificar se a distribuição dos resultados muda de
+forma relevante entre os grupos. Como complemento, foi usado o V de Cramer para
+medir o tamanho do efeito, pois o p-valor indica existência de associação, mas
+não informa sua intensidade.
+
+A correlação de Spearman foi utilizada para atributos numéricos porque ela mede
+associação monotônica sem exigir normalidade dos dados. Essa escolha é adequada
+para variáveis como diferença de ranking, diferença de pontos FIFA e diferenças
+de aproveitamento, que podem não seguir distribuição normal e podem ter relações
+não lineares com o resultado. Assim, os testes estatísticos complementam a
+modelagem preditiva: eles indicam associação entre variáveis e resultado, mas
+não afirmam causalidade.
+
+\begin{table}[H]
+\centering
+\caption{Resumo dos testes estatísticos das hipóteses.}
+\label{tab:testes_hipoteses}
+\begin{tabular}{l l c c}
+\toprule
+Hipótese & Teste principal & p-valor & Efeito \\
+\midrule
+H1 - Ranking FIFA & Qui-quadrado & $<0{,}001$ & V=0,252 \\
+H2 - Forma recente & Qui-quadrado & $<0{,}001$ & V=0,167 \\
+H3 - Ciclo pré-Copa & Qui-quadrado & $<0{,}001$ & V=0,173 \\
+H4 - Força dos adversários & Qui-quadrado & 0,468 & V=0,058 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Os testes estatísticos reforçam a conclusão de que ranking FIFA, forma recente
+e desempenho no ciclo pré-Copa possuem associação com o resultado das partidas.
+O maior efeito foi observado em H1, confirmando o ranking como o fator mais
+consistente. A H4 não apresentou evidência forte no teste de qui-quadrado,
+embora a correlação de Spearman para força dos adversários tenha sido
+estatisticamente significativa, mas fraca. Portanto, essa hipótese deve ser
+interpretada com mais cautela.
+
 \section{Discussão e Conclusão}
 
 Os resultados indicam que é possível prever parcialmente resultados de partidas
@@ -485,10 +552,7 @@ futebol.
     \url{https://www.kaggle.com/datasets/lucasyukioimafuko/fifa-mens-world-ranking}.
     \item Scikit-learn. \textit{User Guide: supervised learning and model
     evaluation}. Disponível em: \url{https://scikit-learn.org/stable/user_guide.html}.
-    \item Hastie, T.; Tibshirani, R.; Friedman, J. \textit{The Elements of
-    Statistical Learning}. Springer.
-    \item James, G.; Witten, D.; Hastie, T.; Tibshirani, R. \textit{An
-    Introduction to Statistical Learning}. Springer.
+    
 \end{itemize}
 
 \end{document}
